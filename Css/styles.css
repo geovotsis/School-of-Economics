@@ -4,15 +4,15 @@
 }
 
 .carousel-item{
-    height: 32rem;
+    height: 28rem;
     background:#777;
     position: relative;
     
     
 }
 
-.carousel-info{
-    position: absolute;
+.carousel-info-1{
+    position: absolute; 
     top: 0;
     bottom: 0;
     left: 0;
@@ -20,32 +20,55 @@
     color: #e6e6e5;
 }
 
-.carousel-img{
-    position:absolute;
+.carousel-info-2{
+    position: absolute; 
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    background:#e4193a;
+    color: #e6e6e5;
+    
+}
+
+.carousel-img{
+    position:absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
     background-position: center;
     background-size: cover;
 }
 
-.carousel-linear{
+.carousel-linear-1{
     position: absolute;
     top: 0;
     bottom: 0;
-    left:41.15%;
+    left:632px;
     right: auto;
     width: 15%;
     background-color: #404041;
     background: linear-gradient(to bottom right, #404041, #404041 50%, transparent 50%, transparent);
+
+}
+
+.carousel-linear-2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:632px;
+    right: auto;
+    width: 15%;
+    background-color: #e4193a;
+    background: linear-gradient(to bottom right, #e4193a, #e4193a 50%, transparent 50%, transparent);
+
 }
 
 .text-red{
     color: #e4193a;
 }
 
-.button-c1{
+.button-c1-1{
     color: #fff;
     background: #e4193a;
     border: none;
@@ -57,7 +80,30 @@
     padding: 1.5rem 4rem;
 }
 
-.button-c2{
+.button-c1-2{
+    color: #404041;
+    background: #e6e6e5;
+    border: none;
+    margin-bottom: 2rem;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1.5rem 4rem;
+}
+
+.button-c2-1{
+    color: #fff;
+    background: black;
+    border: none;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1.5rem 4rem;
+}
+
+.button-c2-2{
     color: #404041;
     background: #e6e6e5;
     border: none;
